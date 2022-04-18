@@ -26,6 +26,7 @@ public class Three {
     public void six(){
         int num = 24;
         System.out.println( /* (1) */ );
+        System.out.println();
     }
 
     public void seven(){
