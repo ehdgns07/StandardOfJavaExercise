@@ -17,4 +17,21 @@ public class Three {
         int num = 456;
         System.out.println(num/100*100);
     }
+
+    public void five(){
+        int num = 333;
+        System.out.println( /* (1) */ );
+    }
+
+    public void six(){
+        int num = 24;
+        System.out.println( /* (1) */ );
+    }
+
+    public void seven(){
+        int fahrenheit = 100;
+        float celcius = ( /* (1) */ );
+        System.out.println("Fahrenheit:"+fahrenheit);
+        System.out.println("Celcius:"+celcius);
+    }
 }
