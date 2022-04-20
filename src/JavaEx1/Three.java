@@ -47,8 +47,8 @@ public class Three {
 
         byte a = 10;
         byte b = 20;
-        byte c = a + b;
-        char ch = 'A';
+        int c = a + b;
+        int ch = 'A';
         ch = ch + 2;
         float f = 3 / 2;
         long l = 3000 * 3000 * 3000;
@@ -56,21 +56,23 @@ public class Three {
         double d = 0.1;
         boolean result = d == f2;
         System.out.println("c=" + c);
-        System.out.println("ch=" + ch);
+        System.out.println("ch=" + String.valueOf(ch));
         System.out.println("f=" + f);
         System.out.println("l=" + l);
         System.out.println("result=" + result);
+        System.out.println();
     }
 
     public void nine(){
-        char ch = 'z';
-        boolean b = ( /* (1) */ );
+        char ch = 'c';
+        boolean b = ( ch>47 && ch<58 || ch >64 && ch<91 || ch>97 && ch<123 );
         System.out.println(b);
+        System.out.println();
     }
 
     public void ten(){
         char ch = 'A';
-        char lowerCase = ( /* (1) */ ) ? ( /* (2) */ ) : ch;
+        char lowerCase =ch>64 ? ch < 91 ? Character.toLowerCase( ch ) : ch : ch;
         System.out.println("ch:"+ch);
         System.out.println("ch to lowerCase:"+lowerCase);
     }

@@ -5,8 +5,12 @@ public class ExerciseExMain {
         Three th = new Three();
 //        th.Three();
 //        th.four();
-        th.five();
-        th.six();
-        th.seven();
+//        th.five();
+//        th.six();
+//        th.seven();
+        th.eight();
+        th.nine();
+        th.ten();
     }
+
 }
